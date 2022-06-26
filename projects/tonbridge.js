@@ -1,7 +1,7 @@
 const sdk = require("@defillama/sdk");
 const axios = require('axios');
 const BigNumber = require("bignumber.js");
-const burl = 'https://token-indexer.broxus.com/v1/root_contract/root_address/0:';
+const burl = 'https://tokens.everscan.io/v1/root_contract/root_address/0:';
 const tokenMap = {
     'eb2ccad2020d9af9cec137d3146dde067039965c13a27d97293c931dae22b2b9': 'dai',
     'a519f99bb5d6d51ef958ed24d337ad75a1c770885dcd42d51d6663f9fcdacfb2': 'tether',
